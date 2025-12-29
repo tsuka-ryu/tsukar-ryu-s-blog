@@ -10,7 +10,10 @@ export default function HomePage() {
           tsukaryu's blog
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mb-8 bg-linear-to-b from-neutral-800 to-neutral-600 dark:from-neutral-200 dark:to-neutral-400 bg-clip-text text-transparent">
-          Typing away at the machine, waiting for something to break.
+          {/* Typing away at the machine, waiting for something to break. */}
+          キーボードを叩く、何かが壊れる。
+          <br className="md:hidden" />
+          そういうものだ。
         </p>
         <div className="flex flex-wrap gap-4 justify-center">
           <Link
