@@ -14,7 +14,7 @@ export async function GET(_req: Request, { params }: RouteContext<"/og/blog/[...
     <DefaultImage
       title={page.data.title}
       description={page.data.description}
-      site="tsukaryu's blog"
+      site="tsuka-ryu's blog"
     />,
     {
       width: 1200,

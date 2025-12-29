@@ -51,7 +51,7 @@ export function baseOptions(): BaseLayoutProps {
       title: (
         <>
           <TsukaryuIcon />
-          <span>tsukaryu</span>
+          <span>tsuka-ryu</span>
         </>
       ),
     },

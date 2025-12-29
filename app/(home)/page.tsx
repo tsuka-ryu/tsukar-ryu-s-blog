@@ -7,7 +7,7 @@ export default function HomePage() {
       <Hero />
       <div className="z-0">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 bg-linear-to-b from-neutral-900 to-neutral-600 dark:from-neutral-100 dark:to-neutral-400 bg-clip-text text-transparent">
-          tsukaryu's blog
+          tsuka-ryu's blog
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mb-8 bg-linear-to-b from-neutral-800 to-neutral-600 dark:from-neutral-200 dark:to-neutral-400 bg-clip-text text-transparent">
           {/* Typing away at the machine, waiting for something to break. */}

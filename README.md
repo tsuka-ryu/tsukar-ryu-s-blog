@@ -1,4 +1,4 @@
-# tsukaryu's blog
+# tsuka-ryu's blog
 
 個人ブログサイトのプロトタイプです。[Fumadocs](https://fumadocs.dev)を使用してドキュメント機能とブログ機能を実装し、[Paper Shaders](https://github.com/paper-design/shaders)のGrainGradientを使って美しいグラデーション背景を実現しています。
 

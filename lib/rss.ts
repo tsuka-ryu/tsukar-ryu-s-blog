@@ -5,14 +5,14 @@ const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://localhost:3000";
 
 export function getRSS() {
   const feed = new Feed({
-    title: "tsukaryu's blog",
+    title: "tsuka-ryu's blog",
     id: `${baseUrl}/blog`,
     link: `${baseUrl}/blog`,
     language: "ja",
-    description: "tsukaryu's personal blog",
+    description: "tsuka-ryu's personal blog",
     image: `${baseUrl}/banner.png`,
     favicon: `${baseUrl}/favicon.ico`,
-    copyright: "All rights reserved 2025, tsukaryu",
+    copyright: "All rights reserved 2025, tsuka-ryu",
   });
 
   for (const page of blog.getPages()) {
@@ -24,7 +24,7 @@ export function getRSS() {
       date: new Date(page.data.date),
       author: [
         {
-          name: "tsukaryu",
+          name: "tsuka-ryu",
         },
       ],
     });
