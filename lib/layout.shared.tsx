@@ -8,6 +8,7 @@ export const linkItems: LinkItemType[] = [
     active: "nested-url",
   },
   { text: "About", url: "/about", active: "url" },
+  { text: "RSS", url: "/blog/rss.xml", active: "url" },
   {
     type: "icon",
     url: "https://github.com/tsuka-ryu",
