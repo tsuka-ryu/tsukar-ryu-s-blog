@@ -1,5 +1,5 @@
-import type { BaseLayoutProps, LinkItemType } from "fumadocs-ui/layouts/shared";
 import { TsukaryuIcon } from "@/app/(home)/layout.client";
+import type { BaseLayoutProps, LinkItemType } from "fumadocs-ui/layouts/shared";
 
 export const linkItems: LinkItemType[] = [
   {
@@ -45,14 +45,12 @@ export const linkItems: LinkItemType[] = [
   },
 ];
 
-export const logo = <TsukaryuIcon className="size-5 in-[.uwu]:hidden" />;
-
 export function baseOptions(): BaseLayoutProps {
   return {
     nav: {
       title: (
         <>
-          {logo}
+          <TsukaryuIcon />
           <span>tsukaryu</span>
         </>
       ),

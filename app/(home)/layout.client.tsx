@@ -1,26 +1,7 @@
 "use client";
+import Image from "next/image";
+import Logo from "../icon.png";
 
-import { useId } from "react";
-
-// TODO: svgアニメーションする手書き風文字にしたい気持ち
-export function TsukaryuIcon(props: React.SVGProps<SVGSVGElement>) {
-  const id = useId();
-  return (
-    <svg width="80" height="80" viewBox="0 0 180 180" {...props}>
-      <circle
-        cx="90"
-        cy="90"
-        r="89"
-        fill={`url(#${id}-iconGradient)`}
-        stroke="var(--color-fd-primary)"
-        strokeWidth="1"
-      />
-      <defs>
-        <linearGradient id={`${id}-iconGradient`} gradientTransform="rotate(45)">
-          <stop offset="45%" stopColor="var(--color-fd-background)" />
-          <stop offset="100%" stopColor="var(--color-fd-primary)" />
-        </linearGradient>
-      </defs>
-    </svg>
-  );
+export function TsukaryuIcon() {
+  return <Image alt="tsukaryu" src={Logo} width={20} height={20} aria-label="tsukaryu" />;
 }
